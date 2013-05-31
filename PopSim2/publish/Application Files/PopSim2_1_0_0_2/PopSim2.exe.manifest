@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.2" name="PopSim2.exe" publicKeyToken="8418ad5c341cdbd1" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Iconarchive-Red-Orb-Alphabet-Letter-P.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PopSim2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="PopSim2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PopSim2.exe" size="370176">
+      <assemblyIdentity name="PopSim2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZQL6fJsTLlZiRWFO6NsRT5azyIo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Iconarchive-Red-Orb-Alphabet-Letter-P.ico" size="165707">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZX65UoZY7i/ERREGbliOJrvO5UY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".pop" description="Population" progid="PopSim2.Population.1" defaultIcon="Iconarchive-Red-Orb-Alphabet-Letter-P.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=TomDavidson-PC\TomDavidson" issuerKeyHash="6e0f3b52bffe63efde68b7804d43b43a0aaa5136" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YCf7h5IyqgZ/GFyFppuWlcCZ5NE=</DigestValue></Reference></SignedInfo><SignatureValue>M/beUycdaVx4OZzhHceJA7U6AtAY5/Ck5id021J0K5S76RusnUuklPZgtY5hZhUT2jC5lG+gKuCQcymgXIDUapoVKQ4gN957AaEABj2JlRyuyoOW5vJ4Aaf+oznMVt340KROefU26qEekEB7rpnT015t58Rh7sOPpa2VbwzuN5Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wzFLiZnBpu0gp/u0Oo3IWvU0c3DGEYbrV2GQ4AP1P7VVbg4mfphQFwbjhbif+eAqryIqtZkKsFAUxzLopy86267EZx34C4WWTbLhVLMzYW6ECMts5Dinkxejmv97/8686+Qo7SvmI/utSjWtY8yEBneOwFAokU4qeB99V3vOeV8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d1e499c095969ba6855c187f06aa329287fb2760" Description="" Url=""><as:assemblyIdentity version="1.0.0.2" name="PopSim2.exe" publicKeyToken="8418ad5c341cdbd1" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TomDavidson-PC\TomDavidson</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WbgdIE1qLjGAPZG8mGZoJEAGEyk=</DigestValue></Reference></SignedInfo><SignatureValue>KC1YT6HwYvr0jhsy1p/Kcr2ysaiZ6gjhU5+2i1jjScbkWkrebyWEdqkumUdPcHmZl2XK4GvqGC2cx8H/zTCxribH0zi9IdMFS0NJjJP+JQLY5VxHJs1UK0vt9CPpWEXhMy/j2lrbRwJaxTLiGe4lu3eXcMVOYe7BvXLgAtEinsQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wzFLiZnBpu0gp/u0Oo3IWvU0c3DGEYbrV2GQ4AP1P7VVbg4mfphQFwbjhbif+eAqryIqtZkKsFAUxzLopy86267EZx34C4WWTbLhVLMzYW6ECMts5Dinkxejmv97/8686+Qo7SvmI/utSjWtY8yEBneOwFAokU4qeB99V3vOeV8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQX5hlEv0aiK9Jy/4QruuiRDANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQAVABvAG0ARABhAHYAaQBkAHMAbwBuAC0AUABDAFwAVABvAG0ARABhAHYAaQBkAHMAbwBuMB4XDTEzMDUyODE3MzAxNVoXDTE0MDUyODIzMzAxNVowPzE9MDsGA1UEAx40AFQAbwBtAEQAYQB2AGkAZABzAG8AbgAtAFAAQwBcAFQAbwBtAEQAYQB2AGkAZABzAG8AbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwzFLiZnBpu0gp/u0Oo3IWvU0c3DGEYbrV2GQ4AP1P7VVbg4mfphQFwbjhbif+eAqryIqtZkKsFAUxzLopy86267EZx34C4WWTbLhVLMzYW6ECMts5Dinkxejmv97/8686+Qo7SvmI/utSjWtY8yEBneOwFAokU4qeB99V3vOeV8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQBndjwnXAt/LQzAYYqios3Sjn96a4fjYh6QxEY8Mwi5hX0n80bvxhrjvS/MujNRSXJvhiWDlcvQSamIWkb3vcXjcJ3dXLTvILaUAx1L+nMqBLZ86vr8+6R/IoYYtcbhde7HAXKAZ7E4zZx8U+q6fAsIWXv28ywJzqwAlV7RA7zr0Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,15 @@
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\bin\Debug\PopSim2.exe
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\bin\Debug\PopSim2.pdb
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.Form1.resources
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.Properties.Resources.resources
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.exe
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.pdb
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.PersonDetails.resources
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\bin\Debug\PopSim2.exe.manifest
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\bin\Debug\PopSim2.application
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.TrustInfo.xml
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.exe.manifest
+C:\Users\TomDavidson\documents\visual studio 2010\Projects\PopSim2\PopSim2\obj\x86\Debug\PopSim2.application
